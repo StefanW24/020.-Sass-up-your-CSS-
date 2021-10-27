@@ -1,0 +1,9 @@
+$color-black: rgba(0, 0, 0, 0.75);
+$light-green: #c0eea9;
+$green: #97d279;
+$padding: 20px !default;
+@mixin styling ($styling: text) {
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+}
